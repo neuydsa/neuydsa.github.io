@@ -251,8 +251,8 @@ body:after {
       left: 0;
       font-size: 20px;
       top: -.3rem;
-      font-family: "icomoon";
-      content: "\f024";
+      /*font-family: "icomoon";*/
+      content: "🌹";
       position: absolute; }
   .ul-check.white li:before {
     color: #fff; }
@@ -1678,6 +1678,9 @@ body:after {
   padding: 0;
   position: relative;
   overflow: hidden; }
+
+.team-member figure img {
+  border-radius: 50%; }
 
 .team-member .social {
   position: absolute;
